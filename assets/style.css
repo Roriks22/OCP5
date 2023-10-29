@@ -109,10 +109,10 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff, 1.5;
+	color: #fff;
 	background-color: #BEB45A;
-	border-radius:0 ;
-	opacity: 1.5;
+	border-radius: 0;
+	font-weight: 200;
 }
 .nav-pills .nav-link {
 	color: #000
