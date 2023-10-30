@@ -312,6 +312,7 @@
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci",
 		  "url": "https://roriks22.github.io/OCP5/",
+      "image": "https://roriks22github.io/OCP5/assets/images/profil-nina.webp",
 		  "description": "Nina Carducci, Photographe à Bordeaux",
 		  "address": {
 			"@type": "PostalAddress",
@@ -325,20 +326,14 @@
             "@type": "Person",
             "name": "Nina Carducci",
           "telephone": "05 56 67 78 89",
-          "openingHours": [{
-            "@type": "openingHours"{
-              "dayOfWeek":[
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"],
-              "opens": "10:00",
-              "closes": "19:00"
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "10:00",
+            "closes": "19:00"
             }
           }
         }
-      }
 	</script>
   </body>
 </html>
